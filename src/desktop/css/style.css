@@ -1,0 +1,655 @@
+/* line 45, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 46, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+:after, :before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both; }
+
+/* line 47, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
+  content: none; }
+
+/* line 48, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+h1, h2, h3, h4, h5 {
+  font-size: 1em;
+  font-weight: inherit;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em; }
+
+/* line 49, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+body {
+  font-family: "PT Sans", sans-serif, sans-serif;
+  font-weight: 400;
+  color: white; }
+
+/* line 50, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0 !important; }
+
+/* line 51, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+button, input, textarea {
+  outline: none; }
+
+/* line 52, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+section {
+  width: 100%;
+  min-width: 960px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  min-height: 600px;
+  height: 100vh;
+  background-size: cover !important;
+  text-align: center;
+  font-size: 0; }
+  /* line 29, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  section > div {
+    max-width: 960px;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    margin: 0 auto; }
+    /* line 35, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    section > div > div {
+      width: 100%;
+      position: absolute;
+      height: 600px;
+      top: 50%;
+      margin-top: -300px; }
+
+/* line 56, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+#maket {
+  position: absolute;
+  top: 600px;
+  left: 0;
+  width: 100%;
+  background: url(../maket2.jpg) no-repeat top center;
+  height: 13200px;
+  opacity: 0.5;
+  z-index: 10;
+  display: none; }
+
+/* line 67, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+.sec1 {
+  background-image: url(../img/bg_sec1.jpg); }
+  /* line 73, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .head {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%; }
+  /* line 77, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .logo {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    width: 300px;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    height: 50px;
+    margin: 11px 0px 0px 1px;
+    transition: all 0.25s; }
+    /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .logo:hover {
+      transition: all 0.25s; }
+  /* line 89, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .titp {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 11px 0px 0px 0px;
+    letter-spacing: 0.3px;
+    width: 300px; }
+  /* line 98, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .call {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    width: 300px;
+    text-align: right;
+    margin: 6px 4px 0px 0px; }
+  /* line 105, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .tell {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    transition: all 0.25s; }
+    /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .tell:hover {
+      transition: all 0.25s; }
+  /* line 116, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .btn_zz {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    text-decoration: underline;
+    float: right;
+    letter-spacing: 0.3px;
+    position: relative;
+    background-image: url(../img/fone.png);
+    background-position: left;
+    width: 100%;
+    max-width: 158px;
+    min-height: 15px;
+    transition: all 0.25s; }
+    /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .btn_zz:hover {
+      transition: all 0.25s; }
+    /* line 131, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .btn_zz:hover {
+      text-decoration: none; }
+  /* line 135, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .sech1 {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 40px;
+    letter-spacing: 0.8px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%; }
+  /* line 144, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .sech2 {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    letter-spacing: 0.4px; }
+  /* line 153, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .block {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 31px; }
+  /* line 158, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .video {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    box-shadow: 0 6px 54px rgba(255, 255, 255, 0.19);
+    background-image: url(../img/video.jpg);
+    width: 465px;
+    height: 301px;
+    position: relative;
+    margin: 0px 32px; }
+  /* line 168, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 76px;
+    height: 76px;
+    background-color: rgba(255, 255, 255, 0.36);
+    margin: -38px 0px 0px -38px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.25s; }
+    /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .play:hover {
+      transition: all 0.25s; }
+    /* line 179, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .play:before {
+      content: "";
+      position: absolute;
+      background-color: white;
+      box-shadow: 0 1px 1px rgba(29, 25, 28, 0.42);
+      margin: -23px 0px 0px -23px;
+      border-radius: 50%;
+      width: 46px;
+      height: 46px;
+      top: 50%;
+      left: 50%; }
+    /* line 191, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .play:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-image: url(../img/play.png);
+      width: 10px;
+      height: 13px;
+      margin: -7px 0px 0px -3px; }
+    /* line 201, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .play:hover {
+      width: 80px;
+      height: 80px;
+      margin: -40px 0px 0px -40px; }
+      /* line 205, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec1 .play:hover:before {
+        margin: -25px 0px 0px -25px;
+        width: 50px;
+        height: 50px; }
+  /* line 212, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .form {
+    display: inline-block;
+    vertical-align: top;
+    width: 288px;
+    height: 301px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 6px 54px rgba(255, 255, 255, 0.19);
+    margin: 0px 51px; }
+  /* line 221, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .tit_f {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 69px;
+    background-image: -webkit-linear-gradient(left, #00a588 0%, #00a523 100%);
+    background-image: -o-linear-gradient(left, #00a588 0%, #00a523 100%);
+    background-image: linear-gradient(to right, #00a588 0%, #00a523 100%);
+    box-shadow: 0 6px 18px rgba(0, 165, 35, 0.26);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    padding-top: 16px;
+    letter-spacing: 0.3px; }
+  /* line 235, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 form {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 7px; }
+  /* line 240, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .inp {
+    display: inline-block;
+    vertical-align: top;
+    color: #787878;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    width: 247px;
+    height: 29px;
+    border-bottom: 1px solid #dbdbdc;
+    margin: 10px 0px;
+    padding-left: 9px;
+    letter-spacing: 0.3px; }
+  /* line 253, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .btn_f {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    width: 245px;
+    height: 48px;
+    background-color: #00a523;
+    background-image: -webkit-linear-gradient(left, #00a588 0%, #00a523 100%);
+    background-image: -o-linear-gradient(left, #00a588 0%, #00a523 100%);
+    background-image: linear-gradient(to right, #00a588 0%, #00a523 100%);
+    box-shadow: 0 6px 18px rgba(0, 165, 35, 0.75);
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 25px;
+    color: white;
+    margin-top: 11px;
+    letter-spacing: 0.3px; }
+  /* line 271, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .foot {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+  /* line 278, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .addr {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 35px;
+    background-image: url(../img/point.png);
+    background-position: left;
+    padding-left: 26px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    width: 300px;
+    min-height: 17px; }
+  /* line 292, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .polit {
+    display: inline-block;
+    vertical-align: top;
+    color: rgba(255, 255, 255, 0.57);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.3px;
+    float: left;
+    margin-left: 73px;
+    transition: all 0.25s; }
+    /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .polit:hover {
+      transition: all 0.25s; }
+    /* line 302, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .polit:hover {
+      text-decoration: underline; }
+  /* line 306, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec1 .mail {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    margin-top: 5px;
+    margin-right: 4px;
+    text-align: right;
+    background-image: url(../img/mail.png);
+    background-position: left;
+    min-height: 17px;
+    padding-left: 30px;
+    transition: all 0.25s; }
+    /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec1 .mail:hover {
+      transition: all 0.25s; }
+
+/* line 325, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+input {
+  border: none;
+  background: 0;
+  outline: none; }
+
+/* line 330, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+button {
+  border: none;
+  background: 0;
+  outline: 0; }
+
+/* line 336, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+.sec2 {
+  background-image: url(../img/bg_sec2.jpg); }
+  /* line 344, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec2 .sech2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    letter-spacing: -0.1px;
+    margin-top: 36px; }
+  /* line 354, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec2 .block {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 51px; }
+    /* line 358, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec2 .block .cause {
+      display: inline-block;
+      vertical-align: top;
+      width: 300px;
+      height: 450px;
+      border: 2px solid #01a345;
+      border-radius: 5px;
+      box-shadow: inset 0 0 18px rgba(1, 59, 69, 0.3);
+      position: relative;
+      transition: all 0.25s; }
+      /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause:hover {
+        transition: all 0.25s; }
+      /* line 367, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause.otz {
+        float: left;
+        background-image: url(../img/otz.jpg); }
+      /* line 371, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause.sot {
+        background-image: url(../img/sot.jpg); }
+      /* line 375, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause.pro {
+        float: right;
+        background-image: url(../img/pro.jpg); }
+      /* line 379, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: all 0.25s; }
+        /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+        .sec2 .block .cause:before:hover {
+          transition: all 0.25s; }
+      /* line 390, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause.active .titc, .sec2 .block .cause:hover .titc {
+        color: white; }
+      /* line 393, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause.active .more, .sec2 .block .cause:hover .more {
+        background-image: -webkit-linear-gradient(bottom, #009c41 0%, #00b94e 100%);
+        background-image: -o-linear-gradient(bottom, #009c41 0%, #00b94e 100%);
+        background-image: linear-gradient(to top, #009c41 0%, #00b94e 100%);
+        color: white;
+        transition: all 0.25s; }
+        /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+        .sec2 .block .cause.active .more:hover, .sec2 .block .cause:hover .more:hover {
+          transition: all 0.25s; }
+      /* line 400, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause.active:before, .sec2 .block .cause:hover:before {
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: all 0.25s; }
+        /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+        .sec2 .block .cause.active:before:hover, .sec2 .block .cause:hover:before:hover {
+          transition: all 0.25s; }
+      /* line 405, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause .titc {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        color: #666;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-top: 27px;
+        position: relative; }
+      /* line 416, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec2 .block .cause .more {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        width: 200px;
+        height: 50px;
+        background-color: grey;
+        border: 1px solid #009c41;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        margin-left: -100px;
+        color: #028639;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 50px;
+        transition: all 0.25s; }
+        /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+        .sec2 .block .cause .more:hover {
+          transition: all 0.25s; }
+
+/* line 439, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+.sec3 {
+  background-image: url(../img/bg_sec3.jpg); }
+  /* line 445, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec3 .sech2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    letter-spacing: -0.1px;
+    margin-top: 71px; }
+  /* line 454, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec3 .block {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-width: 939px;
+    height: 365px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #01a446;
+    border-radius: 5px;
+    box-shadow: inset 0 0 18px rgba(1, 59, 69, 0.3);
+    margin-top: 51px;
+    position: relative; }
+  /* line 466, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec3 .titb {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    margin-top: 48px;
+    letter-spacing: -0.2px; }
+  /* line 476, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec3 .titbs {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    margin-top: 21px;
+    letter-spacing: -0.1px; }
+  /* line 486, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec3 .cont {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 39px; }
+    /* line 490, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec3 .cont .btn_u {
+      width: 202px;
+      height: 52px;
+      background-color: white;
+      border: 1px solid #01a446;
+      border-radius: 5px;
+      line-height: 52px;
+      color: #010101;
+      font-size: 18px;
+      font-weight: 700;
+      display: inline-block;
+      vertical-align: top;
+      margin: 5px;
+      transition: all 0.25s; }
+      /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec3 .cont .btn_u:hover {
+        transition: all 0.25s; }
+      /* line 503, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec3 .cont .btn_u:hover, .sec3 .cont .btn_u.active {
+        color: white;
+        background-image: -webkit-linear-gradient(bottom, #028639 0%, #01a446 100%);
+        background-image: -o-linear-gradient(bottom, #028639 0%, #01a446 100%);
+        background-image: linear-gradient(to top, #028639 0%, #01a446 100%);
+        border: 1px solid #01a446; }
+  /* line 512, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec3 .back {
+    display: inline-block;
+    vertical-align: top;
+    color: #010101;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    float: left;
+    background-image: url(../img/back.png);
+    min-height: 26px;
+    background-position: left;
+    text-align: left;
+    margin-top: 58px;
+    margin-left: 72px;
+    padding-left: 33px;
+    position: relative;
+    transition: all 0.25s; }
+    /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec3 .back:hover {
+      transition: all 0.25s; }
+    /* line 528, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec3 .back:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+      border-bottom: 1px dashed black;
+      width: 84%;
+      height: 1px;
+      transition: all 0.25s; }
+      /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec3 .back:after:hover {
+        transition: all 0.25s; }
+    /* line 539, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec3 .back:hover:after {
+      visibility: hidden;
+      transition: all 0.25s; }
+      /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec3 .back:hover:after:hover {
+        transition: all 0.25s; }
+  /* line 545, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+  .sec3 .num_calk {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    margin-left: -125px;
+    bottom: 48px; }
+    /* line 552, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+    .sec3 .num_calk .num {
+      color: white;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      line-height: 50px;
+      display: inline-block;
+      vertical-align: top;
+      width: 50px;
+      height: 50px;
+      margin: 0px 5px;
+      background-color: #009bb5;
+      background-image: -webkit-linear-gradient(bottom, #024d21 0%, #048038 100%);
+      background-image: -o-linear-gradient(bottom, #024d21 0%, #048038 100%);
+      background-image: linear-gradient(to top, #024d21 0%, #048038 100%);
+      border-radius: 50%;
+      transition: all 0.25s; }
+      /* line 14, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec3 .num_calk .num:hover {
+        transition: all 0.25s; }
+      /* line 569, D:/CACHE/GITHUB/dnk.atom.templates/src/desktop/css/sass/style.scss */
+      .sec3 .num_calk .num:hover, .sec3 .num_calk .num.active {
+        background-color: #e40066;
+        background-image: -webkit-linear-gradient(bottom, #027331 0%, #01a446 100%);
+        background-image: -o-linear-gradient(bottom, #027331 0%, #01a446 100%);
+        background-image: linear-gradient(to top, #027331 0%, #01a446 100%); }
+
+/*# sourceMappingURL=style.css.map */
